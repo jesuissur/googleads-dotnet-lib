@@ -1,3 +1,187 @@
+24.9.0
+======
+
+ AdWords:
+   -
+
+ Ad Manager:
+   - Added support for v201911.
+   - Removed support for v201811.
+   - Removed examples for v201902.
+   - Updated reporting examples to demonstrate new Reach metrics
+     and custom dimensions.
+
+ Common:
+   -
+
+
+24.8.0
+======
+
+ AdWords:
+   -
+
+ Ad Manager:
+   - Added support for v201908.
+   - Removed support for v201808.
+   - Removed examples for v201811.
+   - Updated ProposalService and ProposalLineItemService example for Sales
+   Management deprecation.
+
+ Common:
+   -
+
+24.7.1
+======
+
+ AdWords:
+   - Added support for testing the client library against a local insecure server. 
+
+ Ad Manager:
+   - 
+ 
+ Common:
+   -
+   
+24.7.0
+======
+
+ AdWords:
+   -
+
+ Ad Manager:
+ - Added support for v201905.
+ - Removed support for v201805.
+ - Removed examples for v201808.
+
+ Common:
+   -
+
+24.6.0
+======
+
+ AdWords:
+   - Removed support for v201806.
+
+ Ad Manager:
+   -
+
+ Common:
+   -
+   
+24.5.0
+=====
+  AdWords:
+    - No changes.
+
+  Ad Manager:
+    - Added support for v201902.
+    - Removed support for v201802.
+    - Removed examples for v201805.
+
+  Common:
+    - No changes.
+
+24.4.0
+=====
+ AdWords:
+   - Removed support for v201802.
+
+ Ad Manager:
+   -
+
+ Common:
+   - Fixed issue #204.
+
+24.3.0
+======
+ AdWords:
+   - Added new code example for creating Smart Shopping campaigns.
+   - Updated various dependencies to the latest stable versions on Nuget.
+   - Fixed https://github.com/googleads/googleads-dotnet-lib/issues/191
+   - Fixed https://github.com/googleads/googleads-dotnet-lib/issues/199
+
+ Ad Manager:
+   - Updated various dependencies to the latest stable versions on Nuget.
+   - Fixed https://github.com/googleads/googleads-dotnet-lib/issues/165
+   - Fixed https://github.com/googleads/googleads-dotnet-lib/issues/191
+   - Fixed https://github.com/googleads/googleads-dotnet-lib/issues/199
+
+ Common:
+   - Library version bumped to 9.5.0.
+   - Updated various dependencies to the latest stable versions on Nuget.
+   - Fixed https://github.com/googleads/googleads-dotnet-lib/issues/198
+   - Fixed https://github.com/googleads/googleads-dotnet-lib/issues/191
+   - Fixed https://github.com/googleads/googleads-dotnet-lib/issues/199
+   - Fixed https://github.com/googleads/googleads-dotnet-lib/issues/197
+
+24.2.0
+======
+ AdWords:
+   -
+
+ Ad Manager:
+   - Added support for v201811.
+   - Removed support for v201711.
+   - Removed examples for v201802.
+
+ Common:
+   -
+
+24.1.0
+======
+AdWords:
+   - Added support for v201809.
+
+Ad Manager:
+   - No changes.
+
+Common:
+   - No changes.
+
+24.0.0
+======
+AdWords:
+   - No changes.
+
+Ad Manager:
+   - DFP is now Ad Manager. See the migration guide at
+     https://github.com/googleads/googleads-dotnet-lib/wiki/DFP-to-Ad-Manager-rebrand-guide
+   - Added support for v201808.
+   - Removed support for v201708.
+   - Removed examples for v201711.
+
+Common:
+   - No changes.
+
+23.6.0
+======
+AdWords:
+   - Removed support for v201710.
+   - Closed https://github.com/googleads/googleads-dotnet-lib/issues/176.
+   - Fixed https://github.com/googleads/googleads-dotnet-lib/issues/2.
+   - Updated GetKeywordBidSimulations example to use QueryBuilders.
+   - Regenerated v201802 and v201806 stubs.
+   - Removed AddClickToDownloadAd example from all versions.
+DFP:
+   - Reformatted all source files to be compatible with Microsoft's style guide.
+   - Fixed https://github.com/googleads/googleads-dotnet-lib/issues/2
+
+Common:
+   - Fixed https://github.com/googleads/googleads-dotnet-lib/issues/134
+   - Reformatted all source files to be compatible with Microsoft's style guide.
+
+23.5.1
+======
+AdWords:
+   -
+DFP:
+   -
+Common:
+   - Fixed https://github.com/googleads/googleads-dotnet-lib/issues/172
+   - Fixed https://github.com/googleads/googleads-dotnet-lib/issues/173
+   - Fixed https://github.com/googleads/googleads-dotnet-lib/issues/175
+
 23.5.0
 ======
 AdWords:
