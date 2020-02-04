@@ -416,10 +416,11 @@ namespace Google.Api.Ads.Common.OAuth {
           Clock = this.Clock,
           Scopes = Config.OAuth2Scope.Split(' '),
           HttpClientFactory = this.HttpClientFactory,
+
           // Set the state parameter so we can distinguish between a normal
           // page load and a callback.
           UserDefinedQueryParams = new KeyValuePair<string, string>[] {
-            new KeyValuePair<string, string>("state", this.State ?? string.Empty)
+            new KeyValuePair<string, string>("state", this.State)
           }
         };
         return new GoogleAuthorizationCodeFlow(initializer);
@@ -483,8 +484,7 @@ namespace Google.Api.Ads.Common.OAuth {
     /// <param name="redirectUri">The redirect URI.</param>
     /// <returns>The authorization URL.</returns>
     protected virtual string CreateAuthorizationUrl(string redirectUri) {
-        var googleAuthorizationCodeFlow = this.AuthorizationCodeFlow;
-        Uri requestUrl = googleAuthorizationCodeFlow.CreateAuthorizationCodeRequest(
+      Uri requestUrl = this.AuthorizationCodeFlow.CreateAuthorizationCodeRequest(
           Config.OAuth2RedirectUri).Build();
 
       if (IsOffline) {
